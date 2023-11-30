@@ -1,0 +1,58 @@
+@import "colors";
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color:  $red ;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0.7rem;
+  border-radius: 5px;
+  box-shadow: none !important;
+  border: none !important;
+  
+  
+}
+
+.dropdown-toggle:hover {
+  background-color: $reddark;
+  color: white;
+}
+
+.btn-group .dropdown-toggle::after {
+  display: none !important;
+  outline: none !important;
+  border-style: none !important;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  // // min-width: 120px;
+  // background-color: #fff;
+  // box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  // padding: 10px 0;
+}
+
+.dropdown-item {
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: $red;
+}
+
+.navbar {
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
